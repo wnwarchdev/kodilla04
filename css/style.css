@@ -1,0 +1,61 @@
+/* Global */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body {
+  font-size: 14px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+section {
+  margin: auto;
+  width: 400px;
+}
+
+
+/* Title */
+
+.title {
+  position: absolute;
+  left: 50%;
+  transform: rotate(-7deg) translateX(-50%);
+  text-align: center;
+}
+
+h1,
+h2 {
+font-family: 'Yeseva One', cursive;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+
+/* Text */
+
+.text {
+  border: 1px solid black;
+  box-shadow: 2px 2px 5px black;
+  padding: 200px 20px 100px 20px;
+
+}
+
+.strophe {
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+
+.strophe::first-letter {
+  font-weight: bold;
+}
