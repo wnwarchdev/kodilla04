@@ -7,7 +7,6 @@ html {
   box-sizing: inherit;
 }
 
-
 body {
   font-size: 14px;
   font-family: 'Josefin Sans', sans-serif;
@@ -17,7 +16,6 @@ section {
   margin: auto;
   width: 400px;
 }
-
 
 /* Title */
 
@@ -49,7 +47,6 @@ h2 {
   border: 1px solid black;
   box-shadow: 2px 2px 5px black;
   padding: 200px 20px 100px 20px;
-
 }
 
 .strophe {
@@ -58,24 +55,27 @@ h2 {
   position: relative;
 }
 
-
-
+/* makes text bold */
 .strophe::first-letter,
 .strophe span {
   font-weight: bold;
 }
 
+/* makes paragraph red */
 .strophe:hover {
   color: #AA0000;
 }
 
+/* Skull */
 .strophe i {
   font-size: 200px;
   transform: rotate(-7deg) translateX(15%) translateY(-110px);
   display: none;
 }
 
+/* Skull pops out */
 .strophe span:hover ~ i {
   display: block;
-
 }
+
+/* end */
