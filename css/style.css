@@ -21,7 +21,8 @@ section {
 
 /* Title */
 
-.title {
+.title,
+.strophe i {
   position: absolute;
   left: 50%;
   transform: rotate(-7deg) translateX(-50%);
@@ -54,8 +55,27 @@ h2 {
 .strophe {
   padding-bottom: 10px;
   padding-left: 30px;
+  position: relative;
 }
 
-.strophe::first-letter {
+
+
+.strophe::first-letter,
+.strophe span {
   font-weight: bold;
+}
+
+.strophe:hover {
+  color: #AA0000;
+}
+
+.strophe i {
+  font-size: 200px;
+  transform: rotate(-7deg) translateX(15%) translateY(-110px);
+  display: none;
+}
+
+.strophe span:hover ~ i {
+  display: block;
+
 }
