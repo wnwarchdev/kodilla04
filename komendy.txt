@@ -1,0 +1,8 @@
+-komenda do autoprefixera, po wejsciu w katalog /css:
+
+autoprefixer-cli -o style.prefixed.css style.css
+
+-komenda do nu-html-checkera:
+
+nu-html-checker *.html
+

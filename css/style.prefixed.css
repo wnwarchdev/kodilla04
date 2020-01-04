@@ -99,9 +99,12 @@ h2:last-of-type {
 
 
 .flextest .strophe .container {
+  display:-ms-flexbox;
   display:flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
+  -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
   padding-left: 0;
 }
 
