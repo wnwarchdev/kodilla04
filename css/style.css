@@ -27,6 +27,11 @@ section {
   text-align: center;
 }
 
+/* makes title red */
+.title:hover {
+  color: #AA0000;
+}
+
 h1,
 h2 {
 font-family: 'Yeseva One', cursive;
